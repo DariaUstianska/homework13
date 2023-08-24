@@ -10,6 +10,7 @@ nav {
 }
 
 a{
+    display: block;
     color: white;
 }
 
@@ -29,6 +30,8 @@ a{
 
 .submenu {
     display: none;
+    top: 18px;
+    left: 0;
     position: absolute;
     min-width: 200px;
     background: blue;
@@ -36,7 +39,6 @@ a{
 
 .submenu li {
     position: relative;
-    padding: 10px 0px;
     text-align: left;
     border: 1px solid black ;
 }
@@ -49,4 +51,8 @@ a{
 
 nav li:hover > .submenu {
     display: block;
+}
+
+.dropdown{
+    position: relative;
 }
